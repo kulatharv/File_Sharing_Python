@@ -1,37 +1,48 @@
-# File-Sharing Web Application
+📂 File-Sharing Web Application
+📌 Overview
+This File-Sharing Web Application enables users to upload, download, preview, and manage files with ease. It features a responsive UI, drag-and-drop uploads, and QR code sharing, making file sharing seamless across devices.
 
-## Overview
-This file-sharing web application allows users to upload, download, preview, and manage files. It provides a responsive and intuitive interface, making file sharing easy across different devices.
+✨ Features
+   📤 File Upload with drag-and-drop support
 
-## Features
-- File upload with drag-and-drop functionality
-- List of uploaded files with download, preview, and delete options
-- View connected devices
-- Generate QR code for quick sharing
-- Responsive design for compatibility across devices
+   📋 List of uploaded files with download, preview, and delete options
 
-## Setup and Installation
-To run the application locally, follow these steps:
+   🔗 Connected devices view
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/devftkrshna/file-sharing-app-using-python.git
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo
+   📱 QR Code generation for instant sharing
 
-3. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/macOS
-   venv\Scripts\activate  # Windows
+   💻 Responsive design for mobile, tablet, and desktop
+
+⚙️ Setup & Installation
+   Clone the repository
    
-4. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
+      git clone https://github.com/devftkrshna/file-sharing-app-using-python.git
+Navigate to the project directory
 
-5. Start the Flask development server:
-   ```bash
-   flask run
+      cd file-sharing-app-using-python
+Create and activate a virtual environment
 
-6. Open your web browser and go to http://127.0.0.1:5000 to access the application.
+      python -m venv venv
+# Activate on Linux/macOS
+      source venv/bin/activate
+# Activate on Windows
+      venv\Scripts\activate
+Install dependencies
+
+      pip install -r requirements.txt
+      Run the Flask development server
+
+flask run
+Access the application
+Open your browser and go to:
+
+      http://127.0.0.1:5000
+
+
+
+
+
+
+
+
+
